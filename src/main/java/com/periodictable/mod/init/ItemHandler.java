@@ -10,15 +10,21 @@ import com.periodictable.mod.Reference;
 public class ItemHandler {
 	
 	public static Item Hydrogen;
+	public static Item Helium;
 	
 	public static void init(){
 		Hydrogen = new Item().setUnlocalizedName("Hydrogen");
+		Helium = new Item().setUnlocalizedName("Helium");
 	}
 public static void register(){
 	GameRegistry.registerItem(Hydrogen, Hydrogen.getUnlocalizedName().substring(5));
+	GameRegistry.registerItem(Helium, Helium.getUnlocalizedName().substring(5));
+
 }
 public static void registerRenders(){
 	registerRender(Hydrogen);
+	registerRender(Helium);
+
 }
 public static void registerRender(Item item){
 	Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(item	, 0, new ModelResourceLocation(Reference.MOD_ID + ":" + item.getUnlocalizedName().substring(5),"inventory"));
