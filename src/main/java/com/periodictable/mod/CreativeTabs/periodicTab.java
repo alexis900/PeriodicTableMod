@@ -9,7 +9,6 @@ public class periodicTab extends CreativeTabs{
 
 	public periodicTab(String label) {
 		super(label);
-		this.setBackgroundImageName("periodictable.png");
 	}
 
 	@Override

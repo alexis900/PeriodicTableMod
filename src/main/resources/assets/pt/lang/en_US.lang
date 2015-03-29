@@ -1,0 +1,7 @@
+/*Items*/
+item.Hydrogen.name=Hydrogen
+item.Helium.name=Helium
+item.Lithium.name=Lithium
+/*Blocks*/
+/*CreativeTabs*/
+itemGroup.tabPeriodic=Periodic Table of Elements Basics
