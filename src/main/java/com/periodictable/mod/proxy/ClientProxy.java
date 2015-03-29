@@ -1,11 +1,11 @@
 package com.periodictable.mod.proxy;
 
-import com.periodictable.mod.init.ItemHandler;
+import com.periodictable.mod.init.ElementsHandler;
 
 public class ClientProxy extends CommonProxy{
 	@Override
 	public void registerRenders(){
-		ItemHandler.registerRenders();
+		ElementsHandler.registerRenders();
 		
 	}
 }

@@ -8,7 +8,7 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 import com.periodictable.mod.Main;
 import com.periodictable.mod.Reference;
 
-public class ItemHandler {
+public class ElementsHandler {
 	
 	public static Item Hydrogen;
 	public static Item Helium;
@@ -18,12 +18,12 @@ public class ItemHandler {
 	public static Item Carbon;
 	
 	public static void init(){
-		Hydrogen = new Item().setUnlocalizedName("Hydrogen").setCreativeTab(Main.tabPeriodic);
-		Helium = new Item().setUnlocalizedName("Helium").setCreativeTab(Main.tabPeriodic);
-		Lithium = new Item().setUnlocalizedName("Lithium").setCreativeTab(Main.tabPeriodic);
-		Beryllium = new Item().setUnlocalizedName("Beryllium").setCreativeTab(Main.tabPeriodic);
-		Boron = new Item().setUnlocalizedName("Boron").setCreativeTab(Main.tabPeriodic);
-		Carbon = new Item().setUnlocalizedName("Carbon").setCreativeTab(Main.tabPeriodic);
+		Hydrogen = new Item().setUnlocalizedName("Hydrogen").setCreativeTab(Main.tabPeriodicBasics);
+		Helium = new Item().setUnlocalizedName("Helium").setCreativeTab(Main.tabPeriodicBasics);
+		Lithium = new Item().setUnlocalizedName("Lithium").setCreativeTab(Main.tabPeriodicBasics);
+		Beryllium = new Item().setUnlocalizedName("Beryllium").setCreativeTab(Main.tabPeriodicBasics);
+		Boron = new Item().setUnlocalizedName("Boron").setCreativeTab(Main.tabPeriodicBasics);
+		Carbon = new Item().setUnlocalizedName("Carbon").setCreativeTab(Main.tabPeriodicBasics);
 	}
 public static void register(){
 	GameRegistry.registerItem(Hydrogen, Hydrogen.getUnlocalizedName().substring(5));
