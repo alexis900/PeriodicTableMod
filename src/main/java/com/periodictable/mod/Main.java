@@ -9,6 +9,7 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
 import com.periodictable.mod.CreativeTabs.periodicTabBasics;
 import com.periodictable.mod.init.ElementsHandler;
+import com.periodictable.mod.init.MachinesHandler;
 import com.periodictable.mod.proxy.CommonProxy;
 
 @Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION)
@@ -24,6 +25,8 @@ public class Main {
 public void preInit(FMLPreInitializationEvent event){
 	ElementsHandler.init();
 	ElementsHandler.register();
+	MachinesHandler.init();
+	MachinesHandler.register();
 	
 }
 	@EventHandler
