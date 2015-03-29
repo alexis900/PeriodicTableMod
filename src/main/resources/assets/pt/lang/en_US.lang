@@ -2,8 +2,9 @@
 item.Hydrogen.name=Hydrogen
 item.Helium.name=Helium
 item.Lithium.name=Lithium
-item.Lithium.name=Beryllium
+item.Beryllium.name=Beryllium
 item.Boron.name=Boron
+item.Carbon.name=Carbon
 /*Blocks*/
 /*CreativeTabs*/
 itemGroup.tabPeriodic=Periodic Table of Elements Basics
