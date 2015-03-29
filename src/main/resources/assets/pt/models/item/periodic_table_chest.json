@@ -1,7 +1,7 @@
 {
     "parent": "builtin/generated",
     "textures": {
-        "layer0": "pt:items/Beryllium"
+        "layer0": "pt:block/c"
     },
     "display": {
         "thirdperson": {
