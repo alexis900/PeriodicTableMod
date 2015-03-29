@@ -5,6 +5,7 @@ import net.minecraft.client.resources.model.ModelResourceLocation;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
+import com.periodictable.mod.Main;
 import com.periodictable.mod.Reference;
 
 public class ItemHandler {
@@ -14,9 +15,9 @@ public class ItemHandler {
 	public static Item Lithium;
 	
 	public static void init(){
-		Hydrogen = new Item().setUnlocalizedName("Hydrogen");
-		Helium = new Item().setUnlocalizedName("Helium");
-		Lithium = new Item().setUnlocalizedName("Lithium");
+		Hydrogen = new Item().setUnlocalizedName("Hydrogen").setCreativeTab(Main.tabPeriodic);
+		Helium = new Item().setUnlocalizedName("Helium").setCreativeTab(Main.tabPeriodic);
+		Lithium = new Item().setUnlocalizedName("Lithium").setCreativeTab(Main.tabPeriodic);
 
 	}
 public static void register(){
