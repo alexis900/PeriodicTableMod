@@ -7,6 +7,9 @@ item.Lithium.name=Lithium
 item.Beryllium.name=Beryllium
 item.Boron.name=Boron
 item.Carbon.name=Carbon
+item.Nitrogen.name=Nitrogen
+item.Oxygen.name=Oxygen
+item.Fluorine.name=Fluorine
 /*Blocks*/
 /*CreativeTabs*/
 itemGroup.tabPeriodicElements=Periodic Table: Elements

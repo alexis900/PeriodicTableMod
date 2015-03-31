@@ -9,8 +9,11 @@ import com.periodictable.mod.items.test_tube;
 import com.periodictable.mod.items.elements.Beryllium;
 import com.periodictable.mod.items.elements.Boron;
 import com.periodictable.mod.items.elements.Carbon;
+import com.periodictable.mod.items.elements.Fluorine;
 import com.periodictable.mod.items.elements.Hydrogen;
 import com.periodictable.mod.items.elements.Lithium;
+import com.periodictable.mod.items.elements.Nitrogen;
+import com.periodictable.mod.items.elements.Oxygen;
 import com.periodictable.mod.proxy.CommonProxy;
 
 import cpw.mods.fml.common.Mod;
@@ -45,6 +48,8 @@ public class Main {
 	public static Item Boron;
 	public static Item Carbon;
 	public static Item Nitrogen;
+	public static Item Oxygen;
+	public static Item Fluorine;
 
 	@EventHandler
 public void preInit(FMLPreInitializationEvent event){
@@ -64,6 +69,12 @@ public void preInit(FMLPreInitializationEvent event){
 		GameRegistry.registerItem(Boron, "Boron");
 		Carbon = new Carbon().setUnlocalizedName("Carbon");
 		GameRegistry.registerItem(Carbon, "Carbon");
+		Nitrogen = new Nitrogen().setUnlocalizedName("Nitrogen");
+		GameRegistry.registerItem(Nitrogen, "Nitrogen");
+		Oxygen = new Oxygen().setUnlocalizedName("Oxygen");
+		GameRegistry.registerItem(Oxygen, "Oxygen");
+		Fluorine = new Fluorine().setUnlocalizedName("Fluorine");
+		GameRegistry.registerItem(Fluorine, "Fluorine");
 }
 	@EventHandler
 public void Init(FMLInitializationEvent event){
