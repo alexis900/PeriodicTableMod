@@ -6,7 +6,11 @@ import com.periodictable.mod.CreativeTabs.periodicTabBasics;
 import com.periodictable.mod.CreativeTabs.periodicTabItems;
 import com.periodictable.mod.CreativeTabs.periodicTabMachines;
 import com.periodictable.mod.items.test_tube;
+import com.periodictable.mod.items.elements.Beryllium;
+import com.periodictable.mod.items.elements.Boron;
+import com.periodictable.mod.items.elements.Carbon;
 import com.periodictable.mod.items.elements.Hydrogen;
+import com.periodictable.mod.items.elements.Lithium;
 import com.periodictable.mod.proxy.CommonProxy;
 
 import cpw.mods.fml.common.Mod;
@@ -29,6 +33,8 @@ public class Main {
 	public static final periodicTabBasics tabPeriodicBasics = new periodicTabBasics("tabPeriodicElements");
 	public static final periodicTabMachines tabPeriodicMachines = new periodicTabMachines("tabPeriodicMachines");
 	
+	
+	
 	//Instruments
 	public static Item test_tube;
 	//Elements
@@ -38,6 +44,7 @@ public class Main {
 	public static Item Beryllium;
 	public static Item Boron;
 	public static Item Carbon;
+	public static Item Nitrogen;
 
 	@EventHandler
 public void preInit(FMLPreInitializationEvent event){
@@ -47,12 +54,16 @@ public void preInit(FMLPreInitializationEvent event){
 		//Elements
 		Hydrogen = new Hydrogen().setUnlocalizedName("Hydrogen");
 		GameRegistry.registerItem(Hydrogen, "Hydrogen");
-		/*Helium = new Item().setUnlocalizedName("Helium");
+		Helium = new Hydrogen().setUnlocalizedName("Helium");
 		GameRegistry.registerItem(Helium, "Helium");
-		Lithium = new Item().setUnlocalizedName("Lithium");
-		Beryllium = new Item().setUnlocalizedName("Beryllium");
-		Boron = new Item().setUnlocalizedName("Boron");
-		Carbon = new Item().setUnlocalizedName("Carbon");*/
+		Lithium = new Lithium().setUnlocalizedName("Lithium");
+		GameRegistry.registerItem(Lithium, "Lithium");
+		Beryllium = new Beryllium().setUnlocalizedName("Beryllium");
+		GameRegistry.registerItem(Beryllium, "Beryllium");
+		Boron = new Boron().setUnlocalizedName("Boron");
+		GameRegistry.registerItem(Boron, "Boron");
+		Carbon = new Carbon().setUnlocalizedName("Carbon");
+		GameRegistry.registerItem(Carbon, "Carbon");
 }
 	@EventHandler
 public void Init(FMLInitializationEvent event){

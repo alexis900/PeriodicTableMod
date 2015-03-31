@@ -1,4 +1,6 @@
-/*Items*/
+/*Instruments*/
+item.test_tube.name=Test Tube
+/*Elements*/
 item.Hydrogen.name=Hydrogen
 item.Helium.name=Helium
 item.Lithium.name=Lithium

@@ -1,6 +1,8 @@
 package com.periodictable.mod.CreativeTabs;
 
 
+import com.periodictable.mod.Main;
+
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
@@ -13,7 +15,7 @@ public class periodicTabBasics extends CreativeTabs{
 
 	@Override
 	public Item getTabIconItem() {
-		return Items.apple;
+		return Main.Hydrogen;
 	}
 
 }
