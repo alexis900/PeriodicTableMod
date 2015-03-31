@@ -5,9 +5,9 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 
-public class periodicTabBasics extends CreativeTabs{
+public class periodicTabMachines extends CreativeTabs{
 
-	public periodicTabBasics(String label) {
+	public periodicTabMachines(String label) {
 		super(label);
 	}
 

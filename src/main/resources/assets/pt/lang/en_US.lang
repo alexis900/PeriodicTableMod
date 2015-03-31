@@ -7,4 +7,6 @@ item.Boron.name=Boron
 item.Carbon.name=Carbon
 /*Blocks*/
 /*CreativeTabs*/
-itemGroup.tabPeriodic=Periodic Table of Elements Basics
+itemGroup.tabPeriodicElements=Periodic Table: Elements
+itemGroup.tabPeriodicMachines=Periodic Table: Machines
+itemGroup.tabPeriodicItems=Periodic Table: Instruments
