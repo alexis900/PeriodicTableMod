@@ -72,7 +72,6 @@ public class Main {
 	public static Item Krypton;
 	public static Item Rubidium;
 	public static Item Strontium;
-	//en_US
 	public static Item Yttrium;
 	public static Item Zirconium;
 	public static Item Niobium;
@@ -89,6 +88,7 @@ public class Main {
 	public static Item Tellurium;
 	public static Item Iodine;
 	public static Item Xenon;
+	//en_US
 
 	@EventHandler
 public void preInit(FMLPreInitializationEvent event){
