@@ -1,4 +1,4 @@
-package com.periodictable.mod.items.elements;
+package com.periodictable.mod.items;
 
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.item.Item;
@@ -9,8 +9,8 @@ import com.periodictable.mod.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 
-public class Helium extends Item{
-	public Helium(){
+public class Elements extends Item{
+	public Elements(){
 		this.setCreativeTab(Main.tabPeriodicBasics);
 	}
 	

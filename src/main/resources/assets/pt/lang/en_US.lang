@@ -10,6 +10,7 @@ item.Carbon.name=Carbon
 item.Nitrogen.name=Nitrogen
 item.Oxygen.name=Oxygen
 item.Fluorine.name=Fluorine
+item.Neon.name=Neon
 /*Blocks*/
 /*CreativeTabs*/
 itemGroup.tabPeriodicElements=Periodic Table: Elements

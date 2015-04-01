@@ -5,15 +5,8 @@ import net.minecraft.item.Item;
 import com.periodictable.mod.CreativeTabs.periodicTabBasics;
 import com.periodictable.mod.CreativeTabs.periodicTabItems;
 import com.periodictable.mod.CreativeTabs.periodicTabMachines;
+import com.periodictable.mod.items.Elements;
 import com.periodictable.mod.items.test_tube;
-import com.periodictable.mod.items.elements.Beryllium;
-import com.periodictable.mod.items.elements.Boron;
-import com.periodictable.mod.items.elements.Carbon;
-import com.periodictable.mod.items.elements.Fluorine;
-import com.periodictable.mod.items.elements.Hydrogen;
-import com.periodictable.mod.items.elements.Lithium;
-import com.periodictable.mod.items.elements.Nitrogen;
-import com.periodictable.mod.items.elements.Oxygen;
 import com.periodictable.mod.proxy.CommonProxy;
 
 import cpw.mods.fml.common.Mod;
@@ -50,6 +43,25 @@ public class Main {
 	public static Item Nitrogen;
 	public static Item Oxygen;
 	public static Item Fluorine;
+	public static Item Neon;
+			//en_US 
+	public static Item Sodium;
+	public static Item Magnesium;
+	public static Item Aluminium;
+	public static Item Silicon;
+	public static Item Phosphorus;
+	public static Item Sulfur;
+	public static Item Chlorine;
+	public static Item Argon;
+	public static Item Potassium;
+	public static Item Calcium;
+	public static Item Scandium;
+	public static Item Titanium;
+	public static Item Vanadium;
+	public static Item Chromium;
+	public static Item Manganese;
+	public static Item Iron;
+	
 
 	@EventHandler
 public void preInit(FMLPreInitializationEvent event){
@@ -57,24 +69,58 @@ public void preInit(FMLPreInitializationEvent event){
 		test_tube = new test_tube().setUnlocalizedName("test_tube");
 		GameRegistry.registerItem(test_tube, "test_tube");
 		//Elements
-		Hydrogen = new Hydrogen().setUnlocalizedName("Hydrogen");
+		Hydrogen = new Elements().setUnlocalizedName("Hydrogen");
 		GameRegistry.registerItem(Hydrogen, "Hydrogen");
-		Helium = new Hydrogen().setUnlocalizedName("Helium");
+		Helium = new Elements().setUnlocalizedName("Helium");
 		GameRegistry.registerItem(Helium, "Helium");
-		Lithium = new Lithium().setUnlocalizedName("Lithium");
+		Lithium = new Elements().setUnlocalizedName("Lithium");
 		GameRegistry.registerItem(Lithium, "Lithium");
-		Beryllium = new Beryllium().setUnlocalizedName("Beryllium");
+		Beryllium = new Elements().setUnlocalizedName("Beryllium");
 		GameRegistry.registerItem(Beryllium, "Beryllium");
-		Boron = new Boron().setUnlocalizedName("Boron");
+		Boron = new Elements().setUnlocalizedName("Boron");
 		GameRegistry.registerItem(Boron, "Boron");
-		Carbon = new Carbon().setUnlocalizedName("Carbon");
+		Carbon = new Elements().setUnlocalizedName("Carbon");
 		GameRegistry.registerItem(Carbon, "Carbon");
-		Nitrogen = new Nitrogen().setUnlocalizedName("Nitrogen");
+		Nitrogen = new Elements().setUnlocalizedName("Nitrogen");
 		GameRegistry.registerItem(Nitrogen, "Nitrogen");
-		Oxygen = new Oxygen().setUnlocalizedName("Oxygen");
+		Oxygen = new Elements().setUnlocalizedName("Oxygen");
 		GameRegistry.registerItem(Oxygen, "Oxygen");
-		Fluorine = new Fluorine().setUnlocalizedName("Fluorine");
+		Fluorine = new Elements().setUnlocalizedName("Fluorine");
 		GameRegistry.registerItem(Fluorine, "Fluorine");
+		Neon = new Elements().setUnlocalizedName("Neon");
+		GameRegistry.registerItem(Neon, "Neon");
+		Sodium = new Elements().setUnlocalizedName("Sodium");
+		GameRegistry.registerItem(Sodium, "Sodium");
+		Magnesium = new Elements().setUnlocalizedName("Magnesium");
+		GameRegistry.registerItem(Magnesium, "Magnesium");
+		Aluminium = new Elements().setUnlocalizedName("Aluminium");
+		GameRegistry.registerItem(Aluminium, "Aluminium");
+		Silicon = new Elements().setUnlocalizedName("Silicon");
+		GameRegistry.registerItem(Silicon, "Silicon");
+		Phosphorus = new Elements().setUnlocalizedName("Phosphorus");
+		GameRegistry.registerItem(Phosphorus, "Phosphorus");
+		Sulfur = new Elements().setUnlocalizedName("Sulfur");
+		GameRegistry.registerItem(Sulfur, "Sulfur");
+		Chlorine = new Elements().setUnlocalizedName("Chlorine");
+		GameRegistry.registerItem(Chlorine, "Chlorine");
+		Argon = new Elements().setUnlocalizedName("Argon");
+		GameRegistry.registerItem(Argon, "Argon");
+		Potassium = new Elements().setUnlocalizedName("Potassium");
+		GameRegistry.registerItem(Potassium, "Potassium");
+		Calcium = new Elements().setUnlocalizedName("Calcium");
+		GameRegistry.registerItem(Calcium, "Calcium");
+		Scandium = new Elements().setUnlocalizedName("Scandium");
+		GameRegistry.registerItem(Scandium, "Scandium");
+		Titanium = new Elements().setUnlocalizedName("Titanium");
+		GameRegistry.registerItem(Titanium, "Titanium");
+		Vanadium = new Elements().setUnlocalizedName("Vanadium");
+		GameRegistry.registerItem(Vanadium, "Vanadium");
+		Chromium = new Elements().setUnlocalizedName("Chromium");
+		GameRegistry.registerItem(Chromium, "Chromium");
+		Manganese = new Elements().setUnlocalizedName("Manganese");
+		GameRegistry.registerItem(Manganese, "Manganese");
+		Iron = new Elements().setUnlocalizedName("Iron");
+		GameRegistry.registerItem(Iron, "Iron");
 }
 	@EventHandler
 public void Init(FMLInitializationEvent event){
