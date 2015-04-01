@@ -39,6 +39,22 @@ item.Bromine.name=Bromine
 item.Krypton.name=Krypton
 item.Rubidium.name=Rubidium
 item.Strontium.name=Strontium
+item.Yttrium.name=Yttrium
+item.Zirconium.name=Zirconium
+item.Niobium.name=Niobium
+item.Molybdenum.name=Molybdenum
+item.Technetium.name=Technetium
+item.Ruthenium.name=Ruthenium
+item.Rhodium.name=Rhodium
+item.Palladium.name=Palladium
+item.Silver.name=Silver
+item.Cadmium.name=Cadmium
+item.Indium.name=Indium
+item.Tin.name=Tin
+item.Antimony.name=Antimony
+item.Tellurium.name=Tellurium
+item.Iodine.name=Iodine
+item.Xenon.name=Xenon
 /*Blocks*/
 /*CreativeTabs*/
 itemGroup.tabPeriodicElements=Periodic Table: Elements
