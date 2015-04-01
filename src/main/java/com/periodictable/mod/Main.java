@@ -44,7 +44,6 @@ public class Main {
 	public static Item Oxygen;
 	public static Item Fluorine;
 	public static Item Neon;
-			//en_US 
 	public static Item Sodium;
 	public static Item Magnesium;
 	public static Item Aluminium;
@@ -61,7 +60,18 @@ public class Main {
 	public static Item Chromium;
 	public static Item Manganese;
 	public static Item Iron;
-	
+	public static Item Cobalt;
+	public static Item Nickel;
+	public static Item Copper;
+	public static Item Zinc;
+	public static Item Gallium;
+	public static Item Germanium;
+	public static Item Arsenic;
+	public static Item Selenium;
+	public static Item Bromine;
+	public static Item Krypton;
+	public static Item Rubidium;
+	public static Item Strontium;
 
 	@EventHandler
 public void preInit(FMLPreInitializationEvent event){
@@ -121,6 +131,31 @@ public void preInit(FMLPreInitializationEvent event){
 		GameRegistry.registerItem(Manganese, "Manganese");
 		Iron = new Elements().setUnlocalizedName("Iron");
 		GameRegistry.registerItem(Iron, "Iron");
+		Cobalt = new Elements().setUnlocalizedName("Cobalt");
+		GameRegistry.registerItem(Cobalt, "Cobalt");
+		Nickel = new Elements().setUnlocalizedName("Nickel");
+		GameRegistry.registerItem(Nickel, "Nickel");
+		Copper = new Elements().setUnlocalizedName("Copper");
+		GameRegistry.registerItem(Copper, "Copper");
+		Zinc = new Elements().setUnlocalizedName("Zinc");
+		GameRegistry.registerItem(Zinc, "Zinc");
+		Gallium = new Elements().setUnlocalizedName("Gallium");
+		GameRegistry.registerItem(Gallium, "Gallium");
+		Germanium = new Elements().setUnlocalizedName("Germanium");
+		GameRegistry.registerItem(Germanium, "Germanium");
+		Arsenic = new Elements().setUnlocalizedName("Arsenic");
+		GameRegistry.registerItem(Arsenic, "Arsenic");
+		Selenium = new Elements().setUnlocalizedName("Selenium");
+		GameRegistry.registerItem(Selenium, "Selenium");
+		Bromine = new Elements().setUnlocalizedName("Bromine");
+		GameRegistry.registerItem(Bromine, "Bromine");
+		Krypton = new Elements().setUnlocalizedName("Krypton");
+		GameRegistry.registerItem(Krypton, "Krypton");
+		Rubidium = new Elements().setUnlocalizedName("Rubidium");
+		GameRegistry.registerItem(Rubidium, "Rubidium");
+		Strontium = new Elements().setUnlocalizedName("Strontium");
+		GameRegistry.registerItem(Strontium, "Strontium");
+		
 }
 	@EventHandler
 public void Init(FMLInitializationEvent event){
