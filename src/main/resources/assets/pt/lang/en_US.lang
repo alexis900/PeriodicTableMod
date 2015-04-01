@@ -55,6 +55,25 @@ item.Antimony.name=Antimony
 item.Tellurium.name=Tellurium
 item.Iodine.name=Iodine
 item.Xenon.name=Xenon
+item.Caesium.name=Caesium
+item.Barium.name=Barium
+item.Lutetium.name=Lutetium
+item.Tantalum.name=Tantalum
+item.Tungsten.name=Tungsten
+item.Rhenium.name=Rhenium
+item.Osmium.name=Osmium
+item.Iridium.name=Iridium
+item.Platinum.name=Platinum
+item.Gold.name=Gold
+item.Mercury.name=Mercury
+item.Thallium.name=Thallium
+item.Lead.name=Lead
+item.Bismuth.name=Bismuth
+item.Polonium.name=Polonium
+item.Astatine.name=Astatine
+item.Radon.name=Radon
+item.Francium.name=Francium
+item.Radium.name=Radium
 /*Blocks*/
 /*CreativeTabs*/
 itemGroup.tabPeriodicElements=Periodic Table: Elements
