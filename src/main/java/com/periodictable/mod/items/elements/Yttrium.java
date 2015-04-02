@@ -1,4 +1,4 @@
-package com.periodictable.mod.items;
+package com.periodictable.mod.items.elements;
 
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.entity.player.EntityPlayer;
@@ -12,8 +12,8 @@ import com.sun.xml.internal.bind.v2.schemagen.xmlschema.List;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 
-public class Elements extends Item{
-	public Elements(){
+public class Yttrium extends Item{
+	public Yttrium(){
 		this.setCreativeTab(Main.tabPeriodicBasics);
 	}
 	

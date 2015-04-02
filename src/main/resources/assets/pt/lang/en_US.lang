@@ -74,7 +74,9 @@ item.Astatine.name=Astatine
 item.Radon.name=Radon
 item.Francium.name=Francium
 item.Radium.name=Radium
-/*Blocks*/
+/*Machines*/
+tile.WorkSurface.name=Element Combiner
+inventory.WorkSurface.name=Element Combiner
 /*CreativeTabs*/
 itemGroup.tabPeriodicElements=Periodic Table: Elements
 itemGroup.tabPeriodicMachines=Periodic Table: Machines
