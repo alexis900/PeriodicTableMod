@@ -8,6 +8,7 @@ import com.periodictable.mod.CreativeTabs.periodicTabItems;
 import com.periodictable.mod.CreativeTabs.periodicTabMachines;
 import com.periodictable.mod.blocks.WorkSurface;
 import com.periodictable.mod.handler.GuiHandler;
+import com.periodictable.mod.items.help_book;
 import com.periodictable.mod.items.test_tube;
 import com.periodictable.mod.items.elements.Aluminium;
 import com.periodictable.mod.items.elements.Antimony;
@@ -84,6 +85,7 @@ import com.periodictable.mod.items.elements.Zinc;
 import com.periodictable.mod.items.elements.Zirconium;
 import com.periodictable.mod.proxy.CommonProxy;
 
+import cpw.mods.fml.client.FMLClientHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.Mod.Instance;
@@ -109,10 +111,10 @@ public class Main {
 	public static final periodicTabBasics tabPeriodicBasics = new periodicTabBasics("tabPeriodicElements");
 	public static final periodicTabMachines tabPeriodicMachines = new periodicTabMachines("tabPeriodicMachines");
 	
-	
-	
 	//Instruments
 	public static Item test_tube;
+	public static Item help_book;
+	public static final int guiIDHelpBook = 0;
 	//Elements
 	public static Item Hydrogen;
 	public static Item Helium;
@@ -197,6 +199,8 @@ public void preInit(FMLPreInitializationEvent event){
 		//Instruments
 		test_tube = new test_tube().setUnlocalizedName("test_tube");
 		GameRegistry.registerItem(test_tube, "test_tube");
+		help_book = new help_book().setUnlocalizedName("help_book");
+		GameRegistry.registerItem(help_book, "help_book");
 		//Elements
 		Hydrogen = new Hydrogen().setUnlocalizedName("Hydrogen");
 		GameRegistry.registerItem(Hydrogen, "Hydrogen");
@@ -352,6 +356,7 @@ public void preInit(FMLPreInitializationEvent event){
 	@EventHandler
 public void Init(FMLInitializationEvent event){
 		NetworkRegistry.INSTANCE.registerGuiHandler(this, new GuiHandler());
+		//FMLClientHandler.instance().getClient().thePlayer.openGui(Reference.MOD_ID, Main.guiIDHelpBook, world, 0, 0, 0);
 	proxy.registerRenders();
 }
 	@EventHandler

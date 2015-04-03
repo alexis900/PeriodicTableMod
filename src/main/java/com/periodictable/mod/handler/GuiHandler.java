@@ -6,6 +6,7 @@ import net.minecraft.world.World;
 
 import com.periodictable.mod.Main;
 import com.periodictable.mod.container.ContainerWorkSurface;
+import com.periodictable.mod.container.GuiContainerBook;
 import com.periodictable.mod.gui.GuiWorkSurface;
 
 import cpw.mods.fml.common.network.IGuiHandler;
@@ -22,8 +23,10 @@ public class GuiHandler implements IGuiHandler {
 		}
 		
 		return null;
-	}
+	
 
+	}
+	
 	@Override
 	public Object getClientGuiElement(int ID, EntityPlayer player, World world,	int x, int y, int z) {
 		TileEntity entity = world.getTileEntity(x, y, z);
