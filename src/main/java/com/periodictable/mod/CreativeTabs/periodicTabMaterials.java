@@ -5,16 +5,17 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 
 import com.periodictable.mod.handler.ElementsHandler;
+import com.periodictable.mod.handler.metalsHandler;
 
-public class periodicTabBasics extends CreativeTabs{
+public class periodicTabMaterials extends CreativeTabs{
 
-	public periodicTabBasics(String label) {
+	public periodicTabMaterials(String label) {
 		super(label);
 	}
 
 	@Override
 	public Item getTabIconItem() {
-		return ElementsHandler.Hydrogen;
+		return metalsHandler.iron_nugget;
 	}
 
 }

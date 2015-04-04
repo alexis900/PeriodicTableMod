@@ -1,5 +1,6 @@
 /*Instruments*/
 item.test_tube.name=Test Tube
+item.help_book.name=Help Book
 /*Elements*/
 item.Hydrogen.name=Hydrogen
 item.Helium.name=Helium

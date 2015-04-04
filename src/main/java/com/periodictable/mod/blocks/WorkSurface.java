@@ -20,7 +20,7 @@ public class WorkSurface extends Block {
 	private IIcon workSurfaceFront;
 	
 	public WorkSurface() {
-		super(Material.wood);
+		super(Material.iron);
 		
 		this.setHardness(3.5F);
 		this.setResistance(5.0F);

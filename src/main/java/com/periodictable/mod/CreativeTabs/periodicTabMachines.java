@@ -1,11 +1,10 @@
 package com.periodictable.mod.CreativeTabs;
 
 
-import com.periodictable.mod.Main;
-
 import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.init.Items;
 import net.minecraft.item.Item;
+
+import com.periodictable.mod.handler.MachinesHandler;
 
 public class periodicTabMachines extends CreativeTabs{
 
@@ -15,7 +14,7 @@ public class periodicTabMachines extends CreativeTabs{
 
 	@Override
 	public Item getTabIconItem() {
-		return Item.getItemFromBlock(Main.blockWorkSurface);
+		return Item.getItemFromBlock(MachinesHandler.blockWorkSurface);
 	}
 
 }

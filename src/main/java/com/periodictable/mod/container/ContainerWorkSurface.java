@@ -11,8 +11,8 @@ import net.minecraft.inventory.SlotCrafting;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
 
-import com.periodictable.mod.Main;
 import com.periodictable.mod.crafting.WorkSurfaceCraftingManager;
+import com.periodictable.mod.handler.MachinesHandler;
 
 public class ContainerWorkSurface extends Container {
 
@@ -60,7 +60,7 @@ public class ContainerWorkSurface extends Container {
 	
 	@Override
 	public boolean canInteractWith(EntityPlayer player) {
-		if(worldObj.getBlock(posX, posY, posZ) != Main.blockWorkSurface) {
+		if(worldObj.getBlock(posX, posY, posZ) != MachinesHandler.blockWorkSurface) {
 			return false;
 		}else{
 			return player.getDistanceSq((double)posX + 0.5D, (double)posY + 0.5D, (double)posZ + 0.5D) <= 64.0D;

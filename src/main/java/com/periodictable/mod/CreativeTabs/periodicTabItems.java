@@ -2,6 +2,7 @@ package com.periodictable.mod.CreativeTabs;
 
 
 import com.periodictable.mod.Main;
+import com.periodictable.mod.handler.InstrumentsHandler;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Items;
@@ -15,7 +16,7 @@ public class periodicTabItems extends CreativeTabs{
 
 	@Override
 	public Item getTabIconItem() {
-		return Main.test_tube;
+		return InstrumentsHandler.test_tube;
 	}
 
 }

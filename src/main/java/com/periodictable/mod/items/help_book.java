@@ -6,6 +6,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
 
 import com.periodictable.mod.Main;
+import com.periodictable.mod.Reference;
 import com.periodictable.mod.gui.GuiBook;
 
 public class help_book extends Item
@@ -16,6 +17,7 @@ public class help_book extends Item
     {
         this.setMaxStackSize(1);
         this.setCreativeTab(Main.tabPeriodicItems);
+        this.setTextureName(Reference.MOD_ID + ":help_book");
     }
 
    /* public ItemStack onItemRightClick(ItemStack itemstack, World world, EntityPlayer entity){

@@ -6,7 +6,6 @@ import net.minecraft.world.World;
 
 import com.periodictable.mod.Main;
 import com.periodictable.mod.container.ContainerWorkSurface;
-import com.periodictable.mod.container.GuiContainerBook;
 import com.periodictable.mod.gui.GuiWorkSurface;
 
 import cpw.mods.fml.common.network.IGuiHandler;
@@ -19,7 +18,7 @@ public class GuiHandler implements IGuiHandler {
 	
 		
 		if(ID == Main.guiIDWorkSurface) {
-			return ID == Main.guiIDWorkSurface && world.getBlock(x, y, z) == Main.blockWorkSurface ? new ContainerWorkSurface(player.inventory, world, x, y, z) : null;
+			return ID == Main.guiIDWorkSurface && world.getBlock(x, y, z) == MachinesHandler.blockWorkSurface ? new ContainerWorkSurface(player.inventory, world, x, y, z) : null;
 		}
 		
 		return null;
@@ -33,7 +32,7 @@ public class GuiHandler implements IGuiHandler {
 		
 	
 		if(ID == Main.guiIDWorkSurface) {
-			return ID == Main.guiIDWorkSurface && world.getBlock(x, y, z) == Main.blockWorkSurface ? new GuiWorkSurface(player.inventory, world, x, y, z) : null;
+			return ID == Main.guiIDWorkSurface && world.getBlock(x, y, z) == MachinesHandler.blockWorkSurface ? new GuiWorkSurface(player.inventory, world, x, y, z) : null;
 		}
 		
 		return null;

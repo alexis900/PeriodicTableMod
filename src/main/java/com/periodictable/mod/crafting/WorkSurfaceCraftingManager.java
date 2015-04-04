@@ -7,6 +7,7 @@ import java.util.HashMap;
 import java.util.List;
 
 import com.periodictable.mod.Main;
+import com.periodictable.mod.handler.ElementsHandler;
 
 import net.minecraft.block.Block;
 import net.minecraft.init.Items;
@@ -39,7 +40,7 @@ public class WorkSurfaceCraftingManager
     {
         recipes = new ArrayList();
         
-        this.addRecipe(new ItemStack(Main.Hydrogen, 1), new Object[] {"S", "S", "S", "S", "S", 'S', Items.stick});
+        this.addRecipe(new ItemStack(ElementsHandler.Hydrogen, 1), new Object[] {"S", "S", "S", "S", "S", 'S', Items.stick});
         
         
         Collections.sort(this.recipes, new WorkSurfaceRecipeSorter(this));
