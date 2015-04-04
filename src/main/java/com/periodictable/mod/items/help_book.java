@@ -18,7 +18,15 @@ public class help_book extends Item
         this.setMaxStackSize(1);
         this.setCreativeTab(Main.tabPeriodicItems);
         this.setTextureName(Reference.MOD_ID + ":help_book");
+        
     }
+    
+    public ItemStack onItemRightClick(ItemStack par1ItemStack, World World, EntityPlayer par3EntityPlayer)
+    {
+    par3EntityPlayer.openGui(Reference.MOD_ID, Main.guiIDHelpBook, World, 0, 0, 0);
+    return par1ItemStack;
+    }
+
 
    /* public ItemStack onItemRightClick(ItemStack itemstack, World world, EntityPlayer entity){
     	float var4 = 1.0F;
