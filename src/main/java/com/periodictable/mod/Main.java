@@ -120,6 +120,7 @@ public class Main {
 	public static final int guiIDHelpBook = 0;
 	//Machines
 	public static final int guiIDWorkSurface = 1;
+	public static final int guiChest = 2;
 
 	@EventHandler
 public void preInit(FMLPreInitializationEvent event){

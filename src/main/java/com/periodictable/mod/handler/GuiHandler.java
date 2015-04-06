@@ -18,13 +18,14 @@ public class GuiHandler implements IGuiHandler {
 	public Object getServerGuiElement(int ID, EntityPlayer player, World world,	int x, int y, int z) {
 		TileEntity entity = world.getTileEntity(x, y, z);
 	
-		
+	
 		if(ID == Main.guiIDWorkSurface) {
 			return ID == Main.guiIDWorkSurface && world.getBlock(x, y, z) == MachinesHandler.blockWorkSurface ? new ContainerWorkSurface(player.inventory, world, x, y, z) : null;
-		}if(ID == Main.guiIDHelpBook)
-			return new GuiBook(player.inventory, (help_book)player.inventory.getCurrentItem().getItem());
-		 else
+		}
 		
+		 if(ID == Main.guiIDHelpBook)
+				return new GuiBook(player.inventory, (help_book)player.inventory.getCurrentItem().getItem());
+	else
 		return null;
 		
 		  
@@ -46,6 +47,7 @@ public class GuiHandler implements IGuiHandler {
 		if(id == Main.guiIDHelpBook)
 			return new GuiBook(player.inventory, (help_book)player.inventory.getCurrentItem().getItem());
 			 else
+				
 			  return null;
 	}
 	

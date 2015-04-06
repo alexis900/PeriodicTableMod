@@ -12,11 +12,12 @@ public class MachinesHandler {
 		initElement();
 	}
 	public static Block blockWorkSurface;
-	public static Block chest;
+	
 	
 	public static void initElement(){
 		blockWorkSurface = new WorkSurface().setBlockName("WorkSurface");
 		GameRegistry.registerBlock(blockWorkSurface, "WorkSurface");
+	
 	}
 
 }
