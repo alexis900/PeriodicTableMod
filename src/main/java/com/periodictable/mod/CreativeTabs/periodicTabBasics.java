@@ -5,6 +5,7 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 
 import com.periodictable.mod.handler.ElementsHandler;
+import com.periodictable.mod.handler.NameHandler;
 
 public class periodicTabBasics extends CreativeTabs{
 
@@ -14,7 +15,7 @@ public class periodicTabBasics extends CreativeTabs{
 
 	@Override
 	public Item getTabIconItem() {
-		return ElementsHandler.Hydrogen;
+		return NameHandler.Hydrogen;
 	}
 
 }

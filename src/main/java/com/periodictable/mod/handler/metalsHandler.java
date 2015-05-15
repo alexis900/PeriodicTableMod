@@ -5,8 +5,6 @@ import net.minecraft.item.Item;
 import com.periodictable.mod.items.ingot.ironNugget;
 import com.periodictable.mod.items.ingot.tinNugget;
 
-import cpw.mods.fml.common.registry.GameRegistry;
-
 public class metalsHandler {
 	
 	public static void mainRegistry(){
@@ -22,8 +20,7 @@ public class metalsHandler {
 		tin_nugget = new tinNugget().setUnlocalizedName("tin_nugget");
 }
 	public static void Register(){
-		GameRegistry.registerItem(iron_nugget, "iron_nugget");
-		GameRegistry.registerItem(tin_nugget, "tin_nugget");
+		
 	}
 }
 

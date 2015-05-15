@@ -1,11 +1,9 @@
 package com.periodictable.mod.handler;
 
 import net.minecraft.block.Block;
-import net.minecraft.block.material.Material;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 
 import com.periodictable.mod.blocks.WorkSurface;
-
-import cpw.mods.fml.common.registry.GameRegistry;
 
 public class MachinesHandler {
 	public static void mainRegistry(){
@@ -15,7 +13,7 @@ public class MachinesHandler {
 	
 	
 	public static void initElement(){
-		blockWorkSurface = new WorkSurface().setBlockName("WorkSurface");
+		blockWorkSurface = new WorkSurface().setUnlocalizedName("WorkSurface");
 		GameRegistry.registerBlock(blockWorkSurface, "WorkSurface");
 	
 	}

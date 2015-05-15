@@ -8,7 +8,6 @@ import net.minecraft.item.Item;
 public class tinNugget extends Item {
 	public tinNugget(){
 		this.setCreativeTab(Main.tabPeriodicMaterials);
-		 this.setTextureName(Reference.MOD_ID + ":tin_nugget");
 	}
 
 }

@@ -17,7 +17,6 @@ public class help_book extends Item
     {
         this.setMaxStackSize(1);
         this.setCreativeTab(Main.tabPeriodicItems);
-        this.setTextureName(Reference.MOD_ID + ":help_book");
         
     }
     

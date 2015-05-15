@@ -84,4 +84,10 @@ public class WorkSurfaceShapelessRecipes implements IRecipe
     {
         return this.recipeItems.size();
     }
+
+	@Override
+	public ItemStack[] getRemainingItems(InventoryCrafting p_179532_1_) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }
